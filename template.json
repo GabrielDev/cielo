@@ -1,0 +1,63 @@
+{
+    "name": "Arquitetura técnica - Tema para requisitos da blueprint",
+    "description": "Tema para implementar automaticamente os padrões que atendam os requisitos da blueprint de arquitetura e fluxos arquiteturais. Documentação no Confluence: ",
+    "elements": [
+        {
+            "tag": "Software System",
+            "stroke": "#08427b"
+        },
+        {
+            "tag": "Person",
+            "shape": "Person",
+            "color": "#ffffff",
+            "stroke": "#000000",
+            "background": "#08427b"
+        },
+        {
+            "tag": "Database",
+            "shape": "Cylinder"
+        },
+        {
+            "tag": "API",
+            "shape": "Hexagon"
+        },
+        {
+            "tag": "Queue",
+            "shape": "Pipe"
+        },
+        {
+            "tag": "Job",
+            "shape": "Robot"
+        },
+        {
+            "tag": "Web",
+            "shape": "WebBrowser"
+        },
+        {
+            "tag": "Mobile",
+            "shape": "MobileDevicePortrait"
+        },
+        {
+            "tag": "Bucket",
+            "shape": "Folder"
+        },
+        {
+            "tag": "In scope",
+            "color": "#ffffff",
+            "stroke": "#051f38",
+            "background": "#1168bd"
+        },
+        {
+            "tag": "Out of scope",
+            "color": "#ffffff",
+            "stroke": "#3d3d3d",
+            "background": "#999999"
+        }
+    ],
+    "relationships": [
+        {
+            "tag": "Relationship",
+            "style": "Solid"
+        }
+    ]
+}
